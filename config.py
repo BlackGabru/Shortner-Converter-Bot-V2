@@ -16,10 +16,10 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "playerxdatabase")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Aadarsh:Aadarsh07@cluster0.qllzcuy.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "1382643117")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Eagleix)
+ADMINS.append(eagleix)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001803407923")) 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "PlayerXLinks") # For Force Subscription
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "PlayerX_Links") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
 LINK_BYPASS = "False"
