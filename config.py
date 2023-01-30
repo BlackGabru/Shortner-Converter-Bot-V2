@@ -14,9 +14,9 @@ ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("1382643117")] 
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "playerxdatabase")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Aadarsh:Aadarsh07@cluster0.qllzcuy.mongodb.net/?retryWrites=true&w=majority") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "-1005844968310")) 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "1382643117")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(eagleix)
+ADMINS.append(blackgabru)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001803407923")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "PlayerX_Links") # For Force Subscription
